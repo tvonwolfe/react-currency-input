@@ -13,14 +13,14 @@ npm install --save react-currency-input
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MyComponent from 'react-currency-input'
-import 'react-currency-input/dist/index.css'
+import MyComponent from 'react-currency-input';
+import 'react-currency-input/dist/index.css';
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyComponent />;
   }
 }
 ```

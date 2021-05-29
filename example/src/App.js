@@ -1,10 +1,22 @@
-import React from 'react'
+import React from 'react';
+import CurrencyInput from 'react-currency-input';
 
-import { ExampleComponent } from 'react-currency-input'
-import 'react-currency-input/dist/index.css'
+const App = () => (
+  <div
+    style={{
+      display: 'flex',
+      height: '100vh',
+      justifyContent: 'center',
+      margin: '0'
+    }}
+  >
+    <div style={{ margin: 'auto' }}>
+      <CurrencyInput
+        allowFractionalValue
+        onInput={(amount) => console.log(amount)}
+      />
+    </div>
+  </div>
+);
 
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
-
-export default App
+export default App;
