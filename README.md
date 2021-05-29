@@ -8,6 +8,8 @@
 
 ```bash
 npm install --save react-currency-input
+# or
+yarn add react-currency-input
 ```
 
 ## Usage
@@ -15,12 +17,11 @@ npm install --save react-currency-input
 ```jsx
 import React, { Component } from 'react';
 
-import MyComponent from 'react-currency-input';
-import 'react-currency-input/dist/index.css';
+import CurrencyInput from 'react-currency-input';
 
 class Example extends Component {
   render() {
-    return <MyComponent />;
+    return <CurrencyInput />;
   }
 }
 ```
